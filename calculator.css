@@ -1,0 +1,56 @@
+body {
+    overflow-x: hidden;
+    background-image: url(https://i.ibb.co/pPpw97c/bg-cal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15%;
+    font-style: italic;
+}
+
+input[type="text"] {
+    width: 41%;
+    padding : 10px;
+    margin-bottom: 0.5%;
+    font-size: 18px;
+    margin-left: 29%;
+    margin-right: 29%;
+}
+
+
+input[type="button"] {
+    width: 10%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.content {
+    margin-left: 29%;
+    margin-right: -29%;
+}
+
+@media screen and (max-width: 990px) {
+    input[type="text"] {
+        width: 41.2%;
+    }
+}
+@media screen and (max-width: 892px) {
+    input[type="text"] {
+        width: 41.5%;
+    }
+}
+@media screen and (max-width: 634px) {
+    input[type="text"] {
+        width: 42.2%;
+    }
+}
+@media screen and (max-width: 455px) {
+    input[type="text"] {
+        width: 42.5%;
+    }
+}

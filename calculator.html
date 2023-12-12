@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+        <link href="calc.jpeg" rel="icon">
+    </head>
+    <body>
+        <h1>Calculator</h1>
+            <input type="text" id="first"/>
+            <br>
+            <div class="content">
+            <input type="button" value="1" onClick="appendToDisplay('1')">
+            <input type="button" value="2" onClick="appendToDisplay('2')">
+            <input type="button" value="3" onClick="appendToDisplay('3')">
+            <input type="button" value="+" onClick="appendToDisplay('+')">
+            <br>
+            <input type="button" value="4" onClick="appendToDisplay('4')">
+            <input type="button" value="5" onClick="appendToDisplay('5')">
+            <input type="button" value="6" onClick="appendToDisplay('6')">
+            <input type="button" value="-" onClick="appendToDisplay('-')">
+            <br>
+            <input type="button" value="7" onClick="appendToDisplay('7')">
+            <input type="button" value="8" onClick="appendToDisplay('8')">
+            <input type="button" value="9" onClick="appendToDisplay('9')">
+            <input type="button" value="*" onClick="appendToDisplay('x')">
+            <br>
+            <input type="button" value="C" onClick="clearDisplay( )">
+            <input type="button" value="0" onClick="appendToDisplay('0')">
+            <input type="button" value="=" onClick="calculate( )">
+            <input type="button" value="/" onClick="appendToDisplay('/')">
+        </div>
+        <script src="calculator.js"></script>
+    </body>
+</html>
